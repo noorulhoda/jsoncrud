@@ -9,7 +9,7 @@ export class ProductService {
 
   constructor(private http: HttpClient) { }
 
-  apiurl = 'https://localhost:8082/'
+  apiurl = 'https://localhost:3000/'
   private _refreshrequired = new Subject<void>();
   get Refreshrequired() {
     return this._refreshrequired;
